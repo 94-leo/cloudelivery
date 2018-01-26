@@ -127,9 +127,15 @@
             <?php endif; ?>
         </div>
         <!-- /.content-wrapper -->
-
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Versão</b> 0.0.0
+            </div>
+            <strong>Copyright © 2018 <a href="">Leonardo Nogueira da Silva</a>.</strong> Todos os direitos reservados.
+        </footer>
     </div>
     <!-- ./wrapper -->
+
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('adminlte_js'); ?>
@@ -137,5 +143,7 @@
     <?php echo $__env->yieldPushContent('js'); ?>
     <?php echo $__env->yieldContent('js'); ?>
 <?php $__env->stopSection(); ?>
+
+
 
 <?php echo $__env->make('adminlte::master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

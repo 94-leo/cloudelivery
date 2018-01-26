@@ -127,6 +127,10 @@ return [
         ],
         'Logística',
         [
+            'text' => 'Loja',
+            'icon'  => 'shopping-cart',
+        ],
+        [
             'text' => 'CRM',
             'icon'  => 'users',
         ],
@@ -189,10 +193,6 @@ return [
                     'text' => 'Entregadores',
                 ],
             ],
-        ],
-        [
-            'text' => 'Loja',
-            'icon'  => 'shopping-cart',
         ],
         'Análise',
         [

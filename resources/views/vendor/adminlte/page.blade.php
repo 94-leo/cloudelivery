@@ -124,9 +124,15 @@
             @endif
         </div>
         <!-- /.content-wrapper -->
-
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Versão</b> 0.0.0
+            </div>
+            <strong>Copyright © 2018 <a href="">Leonardo Nogueira da Silva</a>.</strong> Todos os direitos reservados.
+        </footer>
     </div>
     <!-- ./wrapper -->
+
 @stop
 
 @section('adminlte_js')
@@ -134,3 +140,5 @@
     @stack('js')
     @yield('js')
 @stop
+
+

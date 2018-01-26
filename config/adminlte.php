@@ -221,7 +221,7 @@ return [
                     'text' => 'Gráficos',
                 ],
                 [
-                    'text' => 'Relatórios',
+                    'text' => 'Tabelas',
                 ],
             ],
         ],

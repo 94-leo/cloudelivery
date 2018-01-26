@@ -190,6 +190,10 @@ return [
                 ],
             ],
         ],
+        [
+            'text' => 'Loja',
+            'icon'  => 'shopping-cart',
+        ],
         'Análise',
         [
             'text' => 'Riscos e Oportunidades',
@@ -255,7 +259,7 @@ return [
         ],
         [
             'text' => 'Ajustes',
-            'icon'  => 'gear',
+            'icon'  => 'cogs',
         ],
         [
             'text' => 'Documentação',

@@ -169,11 +169,14 @@ return [
                 [
                     'text' => 'Itens no Estoque',
                 ],
+                [
+                    'text' => 'Produção',
+                ],
             ],
         ],
         [
             'text' => 'Pedidos',
-            'icon'  => 'list-alt',
+            'icon'  => 'shopping-basket',
         ],
         [
             'text' => 'Entregas',

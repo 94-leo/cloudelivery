@@ -225,6 +225,10 @@ return [
                 ],
             ],
         ],
+        [
+            'text' => 'Processos de Negócio',
+            'icon'  => 'recycle',
+        ],
         'Sistema',
         [
             'text' => 'Logs',

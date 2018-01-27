@@ -267,7 +267,7 @@ return [
         ],
         [
             'text' => 'Ajuda',
-            'icon'  => 'info-circle',
+            'icon'  => 'question-circle',
         ],
     ],
 

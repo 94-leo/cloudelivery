@@ -105,8 +105,10 @@
             @if(config('adminlte.layout') == 'top-nav')
             <div class="container">
             @endif
-
-            <!-- Content Header (Page header) -->
+                <section class="info">
+                    @yield('info')
+                </section>
+                <!-- Content Header (Page header) -->
             <section class="content-header">
                 @yield('content_header')
             </section>

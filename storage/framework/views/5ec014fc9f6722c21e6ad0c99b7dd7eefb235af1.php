@@ -108,8 +108,10 @@
             <?php if(config('adminlte.layout') == 'top-nav'): ?>
             <div class="container">
             <?php endif; ?>
-
-            <!-- Content Header (Page header) -->
+                <section class="info">
+                    <?php echo $__env->yieldContent('info'); ?>
+                </section>
+                <!-- Content Header (Page header) -->
             <section class="content-header">
                 <?php echo $__env->yieldContent('content_header'); ?>
             </section>

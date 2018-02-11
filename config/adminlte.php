@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Cloud</b>elivery',
+    'logo' => '<i class="fa fa-cloud"></i> <b>Cloud</b>elivery&nbsp;',
 
     'logo_mini' => '<i class="fa fa-cloud"></i>',
 
@@ -191,11 +191,15 @@ return [
             'icon'  => 'motorcycle',
             'submenu' => [
                 [
+                    'text' => 'Ocorrências',
+                ],
+                [
                     'text' => 'Área de abrangência',
                 ],
                 [
                     'text' => 'Entregadores',
                 ],
+
             ],
         ],
         'Análise',

@@ -55,6 +55,12 @@
                 <!-- Navbar Right Menu -->
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
+                        <li class="dropdown user user-menu">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <img src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg" class="user-image" alt="User Image">
+                                <span class="hidden-xs"><?php echo e(Auth::user()->name); ?></span>
+                            </a>
+                        </li>
                         <li>
                             <?php if(config('adminlte.logout_method') == 'GET' || !config('adminlte.logout_method') && version_compare(\Illuminate\Foundation\Application::VERSION, '5.3.0', '<')): ?>
                                 <a href="<?php echo e(url(config('adminlte.logout_url', 'auth/logout'))); ?>">

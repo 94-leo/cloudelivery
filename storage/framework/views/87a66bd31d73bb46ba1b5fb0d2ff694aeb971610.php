@@ -18,16 +18,14 @@
             <small>Preview of UI elements</small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Opção</a></li>
-            <li><a href="#">Sub opção</a></li>
-            <li class="active">Tela</li>
+            <li class="active"><i class="fa fa-dashboard"></i> Painel</li>
         </ol>
 
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 
-    
+
 
 
 <?php $__env->stopSection(); ?>

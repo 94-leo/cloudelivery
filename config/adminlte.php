@@ -114,6 +114,10 @@ return [
             'icon'  => 'dashboard',
         ],
         [
+            'text' => 'Perfil',
+            'icon'  => 'user-circle',
+        ],
+        [
             'text' => 'Chat',
             'icon'  => 'comments',
         ],

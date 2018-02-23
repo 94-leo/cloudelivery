@@ -15,7 +15,7 @@ class MakeAdminLteCommand extends MakeAuthCommand
         'auth/register.stub'        => 'auth/register.blade.php',
         'auth/passwords/email.stub' => 'auth/passwords/email.blade.php',
         'auth/passwords/reset.stub' => 'auth/passwords/reset.blade.php',
-        'home.stub'                 => 'home.blade.php',
+        'home.stub'                 => 'painel.blade.php',
     ];
 
     protected function exportViews()

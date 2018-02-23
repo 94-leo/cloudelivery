@@ -147,10 +147,10 @@ return [
             'icon'  => 'dollar',
             'submenu' => [
                 [
-                    'text' => 'Contas a Pagar',
+                    'text' => 'Pagamentos',
                 ],
                 [
-                    'text' => 'Contas a Receber',
+                    'text' => 'Recebimentos',
                 ],
                 [
                     'text' => 'Compras',

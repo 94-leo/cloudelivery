@@ -324,6 +324,17 @@ return [
         [
             'text' => 'Processos de Negócio',
             'icon'  => 'recycle',
+            'submenu' => [
+                [
+                    'text' => 'Processos',
+                ],
+                [
+                    'text' => 'Indicadores',
+                ],
+                [
+                    'text' => 'Metas',
+                ],
+            ]
         ],
         'Sistema',
         [
@@ -356,7 +367,7 @@ return [
                             'text' => 'Arquivos',
                         ],
                         [
-                            'text' => 'Compartilhamentos',
+                            'text' => 'Compartilhados',
                         ],
                     ]
                 ],

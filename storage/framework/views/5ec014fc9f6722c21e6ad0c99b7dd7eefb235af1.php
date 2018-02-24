@@ -56,7 +56,7 @@
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
                         <li class="dropdown user user-menu">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <a href="" class="dropdown-toggle hidden-xs" data-toggle="dropdown" aria-expanded="false">
                                 <img src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg" class="user-image" alt="User Image">
                                 <span class="hidden-xs"><?php echo e(Auth::user()->name); ?></span>
                             </a>

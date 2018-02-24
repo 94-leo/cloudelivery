@@ -133,14 +133,43 @@ return [
         [
             'text' => 'Loja',
             'icon'  => 'shopping-cart',
+            'submenu' => [
+                [
+                    'text' => 'Ir para a loja',
+                ],
+                [
+                    'text' => 'Personalizar',
+                ],
+            ]
         ],
         [
             'text' => 'CRM',
             'icon'  => 'users',
+            'submenu' => [
+                [
+                    'text' => 'Clientes',
+                ],
+                [
+                    'text' => 'Leads',
+                ],
+            ]
         ],
         [
             'text' => 'SRM',
             'icon'  => 'truck',
+            'submenu' => [
+                [
+                    'text' => 'Fornecedores',
+                ],
+                [
+                    'text' => 'Prestadores de Serviços',
+                ],
+                [
+                    'text' => 'Portal do Fornecedor',
+                ],
+            ]
+
+
         ],
         [
             'text' => 'Financeiro',
@@ -154,6 +183,17 @@ return [
                 ],
                 [
                     'text' => 'Compras',
+                    'submenu' => [
+                        [
+                            'text' => 'Cotações',
+                        ],
+                        [
+                            'text' => 'Requisições de Compra',
+                        ],
+                        [
+                            'text' => 'Ordens de Compra',
+                        ],
+                    ]
                 ],
                 [
                     'text' => 'Custos e Tributos',
@@ -179,6 +219,14 @@ return [
                 ],
                 [
                     'text' => 'Produção',
+                    'submenu' => [
+                        [
+                            'text' => 'Ordens de Produção',
+                        ],
+                        [
+                            'text' => 'Composições',
+                        ],
+                    ]
                 ],
             ],
         ],
@@ -199,6 +247,9 @@ return [
                 [
                     'text' => 'Entregadores',
                 ],
+                [
+                    'text' => 'Rotas',
+                ],
 
             ],
         ],
@@ -209,12 +260,45 @@ return [
             'submenu' => [
                 [
                     'text' => 'Estratégias',
+                    'submenu' => [
+                        [
+                            'text' => 'Decisões',
+                        ],
+                        [
+                            'text' => 'Vendas',
+                        ],
+                        [
+                            'text' => 'Metas',
+                        ],
+                    ]
                 ],
                 [
                     'text' => 'Demandas',
+                    'submenu' => [
+                        [
+                            'text' => 'Em alta',
+                        ],
+                        [
+                            'text' => 'Em baixa',
+                        ],
+                        [
+                            'text' => 'Previsões',
+                        ],
+                    ]
                 ],
                 [
-                    'text' => 'Concorrências',
+                    'text' => 'Benchmarking',
+                    'submenu' => [
+                        [
+                            'text' => 'Concorrentes',
+                        ],
+                        [
+                            'text' => 'Critérios e Indicadores',
+                        ],
+                        [
+                            'text' => 'Monitoria',
+                        ],
+                    ]
                 ],
                 [
                     'text' => 'Fraudes',
@@ -247,18 +331,45 @@ return [
             'icon'  => 'terminal',
         ],
         [
-            'text' => 'Usuários',
+            'text' => 'Usuários do sistema',
             'icon'  => 'user',
+            'submenu' => [
+                [
+                    'text' => 'Usuários',
+                ],
+                [
+                    'text' => 'Papéis',
+                ],
+                [
+                    'text' => 'Permissões',
+                ],
+            ],
         ],
         [
             'text' => 'Armazenamento',
             'icon'  => 'hdd-o',
             'submenu' => [
                 [
-                    'text' => 'Upload de Arquivos',
+                    'text' => 'Gerenciador de Arquivos',
+                    'submenu' => [
+                        [
+                            'text' => 'Arquivos',
+                        ],
+                        [
+                            'text' => 'Compartilhamentos',
+                        ],
+                    ]
                 ],
                 [
                     'text' => 'Backup',
+                    'submenu' => [
+                        [
+                            'text' => 'Efetuar Backup',
+                        ],
+                        [
+                            'text' => 'Restaurar de Backup',
+                        ],
+                    ],
                 ],
                 [
                     'text' => 'Downloads',

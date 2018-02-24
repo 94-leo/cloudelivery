@@ -273,7 +273,7 @@ return [
                     ]
                 ],
                 [
-                    'text' => 'Demandas',
+                    'text' => 'Tendências',
                     'submenu' => [
                         [
                             'text' => 'Em alta',
